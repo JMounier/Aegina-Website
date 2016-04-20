@@ -17,7 +17,10 @@ html, body{
 header {
 	width: 100%;
 	height: 250px;
-	background-color: #0DA18D;
+	background-image: url(../res/header.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
 	position: relative;
 	padding-top: 0;
 }
@@ -25,8 +28,9 @@ header {
 #titre {
 	float: right;
 	padding-right: 50%;
+	padding-top: 25px;
 	margin: auto;
-	width: 350px; 
+	width: 600px; 
 }
 
 #titre img{
@@ -48,25 +52,25 @@ header {
 #menu ul {
 	font-family: "oblivion";
 	float: left;
-	padding-top: 25px;
+	padding-left: 0px;
 }
 
 #menu ul a li {
 	text-align: center;
-	margin-left: 20px;
+	margin-left: 15px;
 	float: left;
-	width: 300px;
+	width: 200px;
 	height: 100px;
 	list-style-type: none;
 	position: relative;
 	border: 1px solid black;
-	background-color: #0D7366;
+	background-color: #387fc1;
 	line-height: 100px;
 	color: black;
 }
 
 #menu ul a li:hover {
-	background-color: #6FEADA;
+	background-color: #1587f1;
 	border: 1px solid black;
 	color: white;
 	text-decoration: none;
@@ -115,7 +119,7 @@ footer{
 	display: table-row;
 	height: 20px;
 	width: 100%;
-	background-color: #0DA18D;
+	background-color: #387fc1;
 	margin-top: 5px;
  	bottom : 0;
 }
