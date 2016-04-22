@@ -255,7 +255,9 @@ footer{
 	background-color: #1587f1;
 	color: white;
 }
-
+table{
+	margin-bottom: 40px;
+}
 caption{
 	text-shadow: 0 0 20px rgba(0,0,0, 0.5);
 	padding-bottom: 8px;
