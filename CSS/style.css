@@ -4,10 +4,6 @@ html, body{
 	margin: 0;
 	padding: 0;
 }
-
-body{
-	padding: 1%;
-}
 /*
 **************************************
 						**************
@@ -28,13 +24,13 @@ body{
 #main{ 
 	position: relative;
 	min-height: 100%;
-	background: url(../res/nuancegri.png) no-repeat center fixed;
+	background: url(../res/splashImages/nuancegri.png) no-repeat center fixed;
 }
 
 #backgroundheader {
 	width: 100%;
 	height: 150px;
-	background: url(../res/header.png) no-repeat center;
+	background: url(../res/splashImages/header.png) no-repeat center;
 	background-size: 100%;
 	position: relative;
 	padding-top: 0;
@@ -58,11 +54,11 @@ body{
 						*   Panel    *
 						**************
 */
-nav {
+#menu {
 	padding-left: 15px;
 	float: left;
 	width: 170px;
-	background: url(../res/backgroundpanel.png) no-repeat center;
+	background: url(../res/splashImages/backgroundpanel.png) no-repeat center;
 	background-size: 150%;
 	border: 3px solid black;
 }
@@ -121,8 +117,12 @@ section {
 	padding-bottom: 50px;
 	margin-bottom: 2%;
 	margin-top: 3%;
-	margin-left: 210px;
+	margin-left: 230px;
 	margin-right: 60px;	
+}
+
+section table tr td{
+	text-align: center;
 }
 /*******************************************/
 
@@ -210,7 +210,57 @@ footer{
 	color: black;
 }
 
-	/*
+
+
+/*
+**************************************
+						**************
+						*    WIKI    *
+						**************
+**************************************
+*/
+#wikipanel {
+	background: url(../res/splashImages/backgroundwikipanel.png) no-repeat center;
+	padding-top: 0;
+	position: relative;
+	margin-left: 230px;
+	margin-right: 60px;
+}
+#wikipanel ul {
+	font-family: 'oblivion';
+	border: 3px solid black;
+	margin-top: auto;
+	padding-top: 15px;
+	padding-left: 20%;
+	padding-bottom: 15px;
+}
+
+#wikipanel ul a{
+	text-decoration: none;
+	color: black;
+}
+
+#wikipanel ul a li{
+	text-align: center;
+	line-height: 50px;
+	display: inline-block;
+	border-radius:2px;
+	box-shadow:3px 3px 12px #999;
+	background-color: #387fc1;
+	width: 17%;
+	height: 50px;
+}
+
+#wikipanel ul a li:hover {
+	background-color: #1587f1;
+	color: white;
+}
+
+caption{
+	text-shadow: 0 0 20px rgba(0,0,0, 0.5);
+	padding-bottom: 8px;
+}
+/*
 **************************************
 						**************
 						*   Contact  *
