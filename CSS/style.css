@@ -4,7 +4,6 @@ html, body{
 	margin: 0;
 	padding: 0;
 }
-
 /*
 **************************************
 						**************
@@ -25,13 +24,13 @@ html, body{
 #main{ 
 	position: relative;
 	min-height: 100%;
-	background: url(../res/nuancegri.png) no-repeat center fixed;
+	background: url(../res/splashImages/nuancegri.png) no-repeat center fixed;
 }
 
 #backgroundheader {
 	width: 100%;
 	height: 150px;
-	background: url(../res/header.png) no-repeat center;
+	background: url(../res/splashImages/header.png) no-repeat center;
 	background-size: 100%;
 	position: relative;
 	padding-top: 0;
@@ -55,11 +54,11 @@ html, body{
 						*   Panel    *
 						**************
 */
-nav {
+#menu {
 	padding-left: 15px;
 	float: left;
 	width: 170px;
-	background: url(../res/backgroundpanel.png) no-repeat center;
+	background: url(../res/splashImages/backgroundpanel.png) no-repeat center;
 	background-size: 150%;
 	border: 3px solid black;
 }
@@ -107,10 +106,36 @@ nav {
 	position: center;
 }
 
+/*	
+**************************************			
+						**************
+						*	Footer   *
+						**************
+**************************************
+*/
+footer{
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	background-color: #387fc1;
+}
+
+#Droits a{
+	text-decoration: none;
+}
+
+#Droits a p {
+	text-align: center;
+	color: black;
+}
+
+
+
 /*
 **************************************
 						**************
-						*   Contenu  *
+						*    index   *
 						**************
 **************************************
 */
@@ -118,10 +143,13 @@ section {
 	padding-bottom: 50px;
 	margin-bottom: 2%;
 	margin-top: 3%;
-	margin-left: 210px;
+	margin-left: 230px;
 	margin-right: 60px;	
 }
-/*******************************************/
+
+section table tr td{
+	text-align: center;
+}
 
 .boite {
 	margin: 5px;
@@ -136,14 +164,6 @@ section {
 	padding-top: 5px;
 	padding-right: 5px;
 	float: left;
-	height: 100px;
-	width: 100px;
-}
-
-.imageboite2 {
-	padding-top: 5px;
-	padding-left: 5px;
-	float: right;
 	height: 100px;
 	width: 100px;
 }
@@ -183,48 +203,195 @@ section {
 	float: left;
 	right: 0;
 }
-/*	
-**************************************			
+/*
+**************************************
 						**************
-						*	Footer   *
+						* Actualités *
 						**************
 **************************************
 */
-footer{
-	position: absolute;
-	bottom: 0;
-	height: 40px;
-	width: 100%;
-	background-color: #387fc1;
-	line-height: 0px;
+.actualite {
+	margin: 5px;
+	border: 3px solid black;
+	width: 90%;
+	height: 140px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-#Droits a{
+.imageactualite {
+	padding-top: 5px;
+	padding-right: 5px;
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+
+.titreactualite {
+	float: center;
+	font-size: 20px;
+	text-align: left;
+	padding: 5px;
+	float: center;
+	height: 10%;
+}
+.textactualite {
+	padding: 10px;
+	float: center;
+	height: 40%;
+}
+
+.lienactualite {
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 20%;
+	float: center;
+}
+.dateactualite {
+	float: left;
+	right: 0;
+}
+
+/*
+**************************************
+						**************
+						*    WIKI    *
+						**************
+**************************************
+*/
+#wikipanel {
+	background: url(../res/splashImages/backgroundwikipanel.png) no-repeat center;
+	padding-top: 0;
+	position: relative;
+	margin-left: 230px;
+	margin-right: 60px;
+}
+#wikipanel ul {
+	font-family: 'oblivion';
+	border: 3px solid black;
+	margin-top: auto;
+	padding-top: 15px;
+	padding-left: 20%;
+	padding-bottom: 15px;
+}
+
+#wikipanel ul a{
 	text-decoration: none;
-}
-
-#Droits a p {
-	text-align: center;
 	color: black;
 }
 
-	/*
+#wikipanel ul a li{
+	text-align: center;
+	line-height: 50px;
+	display: inline-block;
+	border-radius:2px;
+	box-shadow:3px 3px 12px #999;
+	background-color: #387fc1;
+	width: 17%;
+	height: 50px;
+}
+
+#wikipanel ul a li:hover {
+	background-color: #1587f1;
+	color: white;
+}
+table{
+	margin-bottom: 40px;
+}
+caption{
+	text-shadow: 0 0 20px rgba(0,0,0, 0.5);
+	padding-bottom: 8px;
+}
+/*
+						**************
+						*   Monstre  *
+						**************
+*/
+.intromonstre {
+	text-align: center;
+	font-size: 20px;
+}
+
+.monstre {
+	margin: 5px;
+	border: 3px solid black;
+	width: 90%;
+	height: 140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imagemonstre {
+	padding-top: 5px;
+	padding-right: 5px;
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+
+.titremonstre {
+	float: center;
+	font-size: 20px;
+	text-align: left;
+	padding: 5px;
+	float: center;
+	height: 10%;
+}
+.textmonstre {
+	padding: 10px;
+	float: center;
+	height: 40%;
+}
+/*
 **************************************
 						**************
 						*   Contact  *
 						**************
 **************************************
 */
-.Contact{
-	margin: 5px auto;
-	background-color: #7fffbb;
-	width: 70%; 
-	height: 80px; 
+
+.introcontact{
 	text-align: center;
-	line-height: 50px;
+	font-size: 20px;
 }
 
-.Contact a{
-	text-decoration: none;
-	color : black;
+.contact {
+	margin: 5px;
+	border: 3px solid black;
+	width: 90%;
+	height: 140px;
+	margin-left: auto;
+	margin-right: auto;
 }
+
+.imagecontact {
+	padding-top: 5px;
+	padding-right: 5px;
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+
+.titrecontact{
+	float: center;
+	font-size: 20px;
+	text-align: left;
+	padding: 5px;
+	float: center;
+	height: 10%;
+}
+.textcontact{
+	padding: 10px;
+	float: center;
+	height: 40%;
+}
+
+#joindre{
+	margin: 5px;
+	width: 90%;
+	height: 140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
