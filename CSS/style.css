@@ -217,13 +217,16 @@ section table tr td{
 	margin: 0
 }
 
-#lien table tr{
-	border: 1px dotted black;
+#lien table td{
+	border-bottom: 1px dotted black;
 }
 
 
 /********************************************/
 
+#nouv{
+	padding-left: 80px;
+}
 .boite {
 	margin: 5px;
 	border: 3px solid black;
